@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    min-width: 100%;
+    width: 100vw;
     background-color: blue;
     padding: 2rem;
 }
@@ -22,13 +22,10 @@ main{
     height: 100vh;
 }
 
-main h1{
-    font-size: 2.2rem;
-}
-
 main div.foto_emanoel,
 main div.botao_download,
-main div.logo{
+main div.logo,
+main div.faixa_central{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +33,11 @@ main div.logo{
 
 main div.logo{
     margin-block: 2rem;
+}
+
+main div.faixa_central{
+    width: 100vw;
+    height: 300px;
 }
 
 main div.foto_emanoel img{
@@ -47,15 +49,11 @@ main p{
     font-size: 1.6rem;
 }
 
-main h1, p{
+main p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-block: 3rem;
+    margin-block: 1rem;
     padding-inline: 2rem;
-}
-
-main h1{
-    font-size: 5rem;
 }
 
 footer img{
