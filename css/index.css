@@ -24,8 +24,7 @@ main{
 
 main div.foto_emanoel,
 main div.botao_download,
-main div.logo,
-main div.faixa_central{
+main div.logo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,15 +32,6 @@ main div.faixa_central{
 
 main div.logo{
     margin-block: 2rem;
-}
-
-main div.faixa_central{
-    height: 300px;
-    margin: auto;
-}
-
-main div.faixa_central img{
-    width: 100vw;
 }
 
 main div.foto_emanoel img{
