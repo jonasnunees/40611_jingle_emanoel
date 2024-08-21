@@ -27,10 +27,15 @@ main h1{
 }
 
 main div.foto_emanoel,
-main div.botao_download{
+main div.botao_download,
+main div.logo{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main div.logo{
+    margin-block: 2rem;
 }
 
 main div.foto_emanoel img{
@@ -42,13 +47,14 @@ main p{
     font-size: 1.6rem;
 }
 
-main h1, h2, p{
+main h1, p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-block: 3rem;
+    padding-inline: 2rem;
 }
 
-main h2{
+main h1{
     font-size: 5rem;
 }
 
