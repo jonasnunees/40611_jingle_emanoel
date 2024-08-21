@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    width: 100vw;
+    min-width: 100%;
     background-color: blue;
     padding: 2rem;
 }
@@ -36,8 +36,12 @@ main div.logo{
 }
 
 main div.faixa_central{
-    width: 100vw;
     height: 300px;
+    margin: auto;
+}
+
+main div.faixa_central img{
+    width: 100vw;
 }
 
 main div.foto_emanoel img{
@@ -56,8 +60,14 @@ main p{
     padding-inline: 2rem;
 }
 
+main div.botao_download{
+    margin-block: 2rem;
+}
+
+main div.botao_download img{
+    width: 300px;
+}
+
 footer img{
     width: 100vw;
-    max-height: 375px;
-    margin: 0 auto;
 }
